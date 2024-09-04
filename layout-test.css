@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+*{
+    margin: 0;
+    font-family: 'Jura';
+}
+
+.fundo_albon {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.fundo_albon img {
+    width: 100vw;
+    height: 100vh;
+}
+#nome {
+    font-size: 64px;
+    color: white;
+}
+
