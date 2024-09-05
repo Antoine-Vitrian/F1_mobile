@@ -17,5 +17,33 @@
 #nome {
     font-size: 64px;
     color: white;
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    margin-left: 30vw;
 }
+#nome img {
+    height: 56px;
+}
+.espaco {
+    height: 75px;
+    border-bottom: solid white 2px;
+    display: flex;
+    align-items: center;
+}
+#espaco {
+    width: 2vw;
+}
+.piloto {
+    border-bottom: solid white 2px;
+}
+/* .paralelograma {
+    width: 150px;
+    height: 70px;
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+    background: #c1c1c1;
+    } */
+
 
