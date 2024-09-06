@@ -8,11 +8,20 @@
     width: 100vw;
     height: 100vh;
     position: absolute;
-    z-index: -1;
+    z-index: -3;
 }
 .fundo_albon img {
     width: 100vw;
     height: 100vh;
+}
+.inf {
+    width: 35vw;
+    margin-left: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+
 }
 #nome {
     font-size: 64px;
@@ -20,7 +29,6 @@
     max-width: 80vw;
     display: flex;
     align-items: center;
-    margin-left: 30vw;
 }
 #nome img {
     height: 56px;
@@ -37,13 +45,24 @@
 .piloto {
     border-bottom: solid white 2px;
 }
-/* .paralelograma {
-    width: 150px;
-    height: 70px;
-    -webkit-transform: skew(-20deg);
-       -moz-transform: skew(-20deg);
-         -o-transform: skew(-20deg);
-    background: #c1c1c1;
-    } */
+.l1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#paralelogramo {
+    width: 250px;
+    height: 50px;
+    transform: skewX(20deg);
+    background: white;
+    color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    }
+#tit {
+    color: white;
+    font-size: 40px;
+}
 
 
