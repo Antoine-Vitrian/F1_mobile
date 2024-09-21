@@ -2,7 +2,7 @@ const albon = document.getElementById('albon');
 const colapinto = document.getElementById('colapinto');
 
 function mostrarAlbon() {
-     albon.style.display = 'block';
+    albon.style.display = 'block';
     colapinto.style.display = 'none';
 }
 function mostrarColapinto() {
